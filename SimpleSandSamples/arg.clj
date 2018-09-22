@@ -1,0 +1,6 @@
+( def arg1 (nth *command-line-args* 0) )
+( def arg2 (nth *command-line-args* 1) )
+( def arg3 (nth *command-line-args* 2) )
+( println arg1 )
+( println arg2 )
+( println arg3 )
