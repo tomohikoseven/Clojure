@@ -1,0 +1,6 @@
+( def lis ["apple"] )
+( def lis (conj lis "banana") )
+( def lis (conj lis 1234) )
+( def lis (conj lis 5678) )
+( def lis (conj lis "candy"))
+( println lis )
