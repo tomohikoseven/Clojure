@@ -1,0 +1,6 @@
+(def arg1 (nth *command-line-args* 0))
+(def base "abcdefghijklmnopqrstuvwxyz")
+(def ind (.indexOf base arg1))
+(if (= ind -1)
+  (println "NOT FOUND")
+  (print (format "INDEX=%d\n" ind)) )
